@@ -5,15 +5,12 @@ export default function Contact() {
       className="bg-white dark:bg-black text-gray-900 dark:text-white text-center py-16 px-4"
     >
       <h2 className="text-3xl font-bold mb-6">Get in Touch</h2>
-
       <div className="space-y-4">
         <p>
-          <span className="font-semibold">Email:</span>{' '}
-          leoissaghoulian@gmail.com
+          <strong>Email:</strong> leoissaghoulian@gmail.com
         </p>
-
-        <div>
-          <span className="font-semibold">GitHub:</span>{' '}
+        <p>
+          <strong>GitHub:</strong><br />
           <a
             href="https://github.com/Swifter321"
             target="_blank"
@@ -31,10 +28,9 @@ export default function Contact() {
           >
             github.com/LeoSamuel7
           </a>
-        </div>
-
+        </p>
         <p>
-          <span className="font-semibold">LinkedIn:</span>{' '}
+          <strong>LinkedIn:</strong>{' '}
           <a
             href="https://www.linkedin.com/in/leo-issaghoulian/"
             target="_blank"
