@@ -9,7 +9,7 @@ export default function Projects() {
         {/* License Plate Reader Card */}
         <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow text-left">
           <p className="mb-4">
-          A computer vision system for identifying and reading license plates in real-time using fuzzy logic. The project features a full preprocessing pipeline that includes image grayscaling, brightness normalization, and blur reduction to enhance low-quality images. After isolating the license plate region, a custom fuzzy logic model segments and recognizes each character individually — improving both speed and accuracy over traditional OCR methods.
+          A computer vision system for identifying and reading license plates in real-time using fuzzy logic. The project features a full preprocessing pipeline that includes image grayscaling, brightness normalization, and blur reduction to enhance low-quality images. After isolating the license plate region, a custom fuzzy logic model segments and recognizes each character individually improving both speed and accuracy over traditional OCR methods.
           </p>
           <div className="flex flex-wrap gap-2 mb-3">
             <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-sm">Python</span>
@@ -33,7 +33,7 @@ export default function Projects() {
         {/* Ultrasonic Transponder Card */}
         <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow text-left">
           <p className="mb-4">
-          A two-way embedded communication system using ultrasonic pulses to transmit and receive data between transceiver nodes. The project involved designing custom PCBs for both transmitter and receiver using EasyEDA and implementing signal encoding/decoding in C++ on a MEGA2560 board. Each transmitted pulse encoded an ID or command, which the receiving side decoded and responded to in real time — enabling bidirectional communication. Additional work included signal filtering, noise reduction, and synchronization for reliable pulse detection.
+          A two-way embedded communication system using ultrasonic pulses to transmit and receive data between transceiver nodes. The project involved designing custom PCBs for both transmitter and receiver using EasyEDA and implementing signal encoding/decoding in C++ on a MEGA2560 board. Each transmitted pulse encoded an ID or command, which the receiving side decoded and responded to in real time, enabling bidirectional communication. Additional work included signal filtering, noise reduction, and synchronization for reliable pulse detection.
           </p>
           <div className="flex flex-wrap gap-2 mb-3">
             <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-sm">C++</span>
